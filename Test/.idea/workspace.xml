@@ -13,7 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="ci и сломанный тест 1" />
+    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="fix теста" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603374747081</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix теста">
+      <created>1603374828163</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603374828163</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +286,8 @@
     <MESSAGE value="выполнены задания 1.2.1 и 1.2.2" />
     <MESSAGE value="Выполнены задания в package lesson1_2: 1.2.1, 1.2.2 и 1.2.3&#10;package lesson1_3: 1.3.1, 1.3.2" />
     <MESSAGE value="ci и сломанный тест 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci и сломанный тест 1" />
+    <MESSAGE value="fix теста" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix теста" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1601922391610">
@@ -338,10 +346,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1603370562369" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603374756783">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603374833924">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603374756783" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603374833924" />
     <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1603366854892">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
