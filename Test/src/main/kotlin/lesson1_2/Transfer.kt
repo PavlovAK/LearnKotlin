@@ -1,16 +1,10 @@
 package lesson1_2
 
-fun tranfer (sumOfTransfer: Int) {
-    var sumOfTransferInPenny: Int = sumOfTransfer * 100
+fun tranfer (sumOfTransfer: Int): String {
+    val sumOfTransferInPenny: Int = sumOfTransfer * 100
     if (sumOfTransferInPenny / 100 * 0.75 > 3500) {
-        var comission: Double = sumOfTransferInPenny * 0.75
-        print("""
-            
-Комиссия составит ${comission.toInt()} копеек.
-        """.trimIndent())
+        val comission: Double = sumOfTransferInPenny * 0.75
+        return "Комиссия составит ${comission.toInt()} копеек."
     }
-    else print("""
-            
-Комиссия составит 3500 копеек.
-        """.trimIndent())
+    else return "Комиссия составит 3500 копеек."
 }
