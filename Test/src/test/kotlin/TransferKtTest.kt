@@ -11,7 +11,7 @@ internal class TransferKtTest {
         val message = "Комиссия составит 3500 копеек."
         val result = tranfer(sumOfTransfer = sumOfTransferWithoutDiscont)
 
-        assertEquals(message, result)
+        assertEquals(1, result)
     }
 
     @Test
