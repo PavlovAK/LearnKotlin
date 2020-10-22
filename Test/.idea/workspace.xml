@@ -13,22 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="Выполнены задания в package lesson1_2: 1.2.1, 1.2.2 и 1.2.3&#10;package lesson1_3: 1.3.1, 1.3.2">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TransferKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_2/Transfer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_2/Transfer.kt" afterDir="false" />
-    </list>
+    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="ci и сломанный тест 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -263,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602868692391</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ci и сломанный тест 1">
+      <created>1603374747081</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603374747081</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +278,8 @@
     <MESSAGE value="Убрал из отслеживания билд и грэдл" />
     <MESSAGE value="выполнены задания 1.2.1 и 1.2.2" />
     <MESSAGE value="Выполнены задания в package lesson1_2: 1.2.1, 1.2.2 и 1.2.3&#10;package lesson1_3: 1.3.1, 1.3.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнены задания в package lesson1_2: 1.2.1, 1.2.2 и 1.2.3&#10;package lesson1_3: 1.3.1, 1.3.2" />
+    <MESSAGE value="ci и сломанный тест 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci и сломанный тест 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1601922391610">
@@ -301,10 +294,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="420" y="132" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1603366966514" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1603374456032">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1603374763587">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1603374456032" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1603374763587" />
     <state x="520" y="239" key="Github.ShareDialog" timestamp="1601921987490">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -345,10 +338,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1603370562369" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602868699919">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603374756783">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602868699919" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603374756783" />
     <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1603366854892">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
