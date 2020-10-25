@@ -1,7 +1,6 @@
 import lesson1_2.discount
 import lesson1_3.convertTime
 import lesson1_5.*
-import lesson1_5.WallService.posts
 
 fun main() {
 
@@ -23,7 +22,7 @@ fun main() {
     )
 
     val firstPost = Post(
-        1,
+        0,
         1,
         1,
         1,
@@ -46,8 +45,16 @@ fun main() {
         1
     )
 
-    val secondPost = firstPost.copy(ownerId = 100_000)
-    val thirdPost = secondPost.copy(id = 1, fromId = 99999)
+    val secondPost = firstPost.copy (id = 2)
 
-
+//    WallService.addPost(firstPost)
+//    WallService.addPost(secondPost)
+////    val targetIndex: Int = posts.indexOf(firstPost)
+////    val targetId: Long = posts.get(targetIndex).id
+//    val targetId = posts.get(posts.indexOf(secondPost)).id
+//    val sizeBeforeRemove = posts.size
+//    println(posts.remove(posts.fil))
+//    val sizeAfterRemove = posts.size
+//    println(posts.removeAt(0))
+//    println(posts.toString())
 }

@@ -1,7 +1,7 @@
 package lesson1_5
 
 data class Post(
-    var id: Long,
+    val id: Long,
     val ownerId: Long,
     var fromId: Long,
     val createdBy: Long,
@@ -24,21 +24,3 @@ data class Post(
     val postponedId: Long
 )
 
-object WallService {
-    var posts = emptyArray<Post>()
-
-    fun addPost(post: Post): Post {
-        val lastId = posts.lastOrNull()?.id ?: 0
-        posts += post.copy(id = lastId + 1)
-        return posts.last()
-    }
-
-    fun updatePost(post: Post): Boolean {
-        val oldPost = posts.find { it.id == post.id } ?: return false
-        val oldPostIndex = posts.indexOf(oldPost)
-        val newPost = post.copy(date = oldPost.date, ownerId = oldPost.ownerId)
-        posts[oldPostIndex] = newPost
-
-        return true
-    }
-}
