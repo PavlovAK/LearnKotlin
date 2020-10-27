@@ -1,60 +1,92 @@
 import lesson1_2.discount
 import lesson1_3.convertTime
 import lesson1_5.*
+import lesson1_6.Attachment
+import lesson1_6.Geo
+import lesson1_6.Place
+import lesson1_6.PostSourse
 
 fun main() {
 
-    val firstView = Views(
-        1
+    val wallService = WallService()
+
+    val attachments = emptyArray<Attachment>()
+
+    val copyHistory = emptyArray<Post>()
+
+    val firstPlace = Place(
+        id = 100,
+        title = "House of Kolotushkina",
+        latitude = 14,
+        longitude = 88,
+        created = 23456,
+        icon = "Picture",
+        checkins = 1,
+        updated = 3454,
+        type = 7,
+        country = 7,
+        city = 77,
+        addres = "Moscow"
     )
 
+    val firstGeo = Geo(
+        type = "country",
+        coordinates = "Pushkina street",
+        place = firstPlace
+    )
+
+    val firstPostSource = PostSourse(
+        type = "vk",
+        platform = "android",
+        data = "like",
+        url = "www.leningrad.ru"
+    )
+
+    val firstView = Views(1)
+
     val firstRepost = Reposts(
-        1,
-        true
+        count = 1,
+        userReposted = true
     )
 
     val firstComment = Comments(
-        1,
-        true,
-        true,
-        true,
-        true
+        count = 1,
+        canPost = true,
+        groupsCanPost = true,
+        canClose = true,
+        canOpen = true
     )
 
     val firstPost = Post(
-        0,
-        1,
-        1,
-        1,
-        1,
-        "Post",
-        1,
-        1,
-        true,
-        firstComment,
-        "PavlovAK",
-        firstRepost,
-        firstView,
-        1,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        1
+        id = 0,
+        ownerId = 1,
+        fromId = 1,
+        createdBy = 1,
+        date = 1,
+        text = "Post",
+        replyOwnerId = 1,
+        replyPostId = 1,
+        friendsOnly = true,
+        comments = firstComment,
+        copyright = "PavlovAK",
+        reposts = firstRepost,
+        views = firstView,
+        postType = "post",
+        postSourse = firstPostSource,
+        attachments = attachments,
+        geo = firstGeo,
+        signerId = 1,
+        copyHistory = copyHistory,
+        canPin = true,
+        canDelete = true,
+        canEdit = true,
+        isPinned = true,
+        markedAsAds = true,
+        isFavorite = true,
+        postponedId = 1
     )
 
     val secondPost = firstPost.copy (id = 2)
 
-//    WallService.addPost(firstPost)
-//    WallService.addPost(secondPost)
-////    val targetIndex: Int = posts.indexOf(firstPost)
-////    val targetId: Long = posts.get(targetIndex).id
-//    val targetId = posts.get(posts.indexOf(secondPost)).id
-//    val sizeBeforeRemove = posts.size
-//    println(posts.remove(posts.fil))
-//    val sizeAfterRemove = posts.size
-//    println(posts.removeAt(0))
-//    println(posts.toString())
+
 }

@@ -1,5 +1,5 @@
 package lesson1_5
 
-data class Views(
+class Views(
     val count: Long
 )

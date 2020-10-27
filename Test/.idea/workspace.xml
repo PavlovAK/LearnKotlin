@@ -13,11 +13,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="выполнены задания в lesson1_5">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lesson1_3/TransferUpgradeKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="модернизировал TransferUpgrade.kt и покрыл все ветки автотестами">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/Attachment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/AttachmentPhoto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/Geo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/Photo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/Place.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/PostSourse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/Sizes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_3/TransferUpgrade.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_3/TransferUpgrade.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/Comments.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/Comments.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/Likes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/Likes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/Post.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/Post.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/Reposts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/Reposts.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/Views.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/Views.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/lesson1_5/WallServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/lesson1_5/WallServiceTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +53,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -73,6 +86,7 @@
       <recent name="lesson1_5" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="lesson1_6.Abstract" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -87,7 +101,45 @@
       <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TransferUpgradeKtTest">
+  <component name="RunManager" selected="Gradle.Tests in 'Test.test'">
+    <configuration name="Tests in 'Test.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TransferKtTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TransferKtTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TransferUpgradeKtTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,44 +178,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TransferUpgradeKtTest.transferUpgrade_countComissionVisaAndMirAfterLimit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_3.TransferUpgradeKtTest.transferUpgrade_countComissionVisaAndMirAfterLimit&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TransferUpgradeKtTest.transferUpgrade_countComissionVisaAndMirBeforeLimit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_3.TransferUpgradeKtTest.transferUpgrade_countComissionVisaAndMirBeforeLimit&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="TransferUpgradeKtTest.transferUpgrade_overLimitInMonthVkPay" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -185,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'Test.test'" />
+        <item itemvalue="Gradle.TransferKtTest" />
         <item itemvalue="Gradle.TransferUpgradeKtTest" />
         <item itemvalue="Gradle.TransferUpgradeKtTest.transferUpgrade_beforeLimitInMonthVkPay" />
         <item itemvalue="Gradle.TransferUpgradeKtTest.transferUpgrade_overLimitInMonthVkPay" />
-        <item itemvalue="Gradle.TransferUpgradeKtTest.transferUpgrade_countComissionVisaAndMirAfterLimit" />
-        <item itemvalue="Gradle.TransferUpgradeKtTest.transferUpgrade_countComissionVisaAndMirBeforeLimit" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603718309821</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="модернизировал TransferUpgrade.kt и покрыл все ветки автотестами">
+      <created>1603722841539</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603722841539</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,9 +362,14 @@
     <MESSAGE value="попытка сделать задание" />
     <MESSAGE value="попытка сделать задание2" />
     <MESSAGE value="выполнены задания в lesson1_5" />
-    <option name="LAST_COMMIT_MESSAGE" value="выполнены задания в lesson1_5" />
+    <MESSAGE value="модернизировал TransferUpgrade.kt и покрыл все ветки автотестами" />
+    <option name="LAST_COMMIT_MESSAGE" value="модернизировал TransferUpgrade.kt и покрыл все ветки автотестами" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Intentions" timestamp="1603805128850">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Intentions/0.0.1280.680@0.0.1280.680" timestamp="1603805128850" />
     <state x="121" y="0" key="#Project_Structure" timestamp="1601922391610">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -352,18 +378,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1603722411779" />
-    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1603634255334">
+    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1603817100510">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603634255334" />
+    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603817100509" />
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603096132808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1603096132808" />
-    <state x="420" y="132" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1603366966514">
+    <state x="420" y="132" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1603810788045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="420" y="132" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1603366966514" />
+    <state x="420" y="132" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1603810788045" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1603374763587">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -376,22 +402,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="424" y="39" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601922126644" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1603722795790">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1603817908281">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603722795790" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1603722795790">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603817908281" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1603817908281">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603722795790" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1603722795790">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603817908281" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1603817908281">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603722795790" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1603722795790">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603817908281" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1603817908281">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603722795790" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603817908281" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1603566291883">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -408,10 +434,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1603566291883" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603718315189">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603722846410">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603718315189" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603722846410" />
     <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1603718748383">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -454,7 +480,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/test/kotlin/lesson1_5/WallServiceTest.kt</url>
-          <line>7</line>
+          <line>11</line>
           <properties class="lesson1_5.WallServiceTest" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
           </properties>
@@ -467,18 +493,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>6</line>
+          <line>10</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>42</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>23</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
