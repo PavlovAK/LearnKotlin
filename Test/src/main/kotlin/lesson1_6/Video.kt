@@ -1,0 +1,44 @@
+package lesson1_6
+
+interface Video {
+    val id: Long
+    val ownerId: Long
+    val title: String
+    val description: String
+    val duration: Int
+    val image: Array<Image>
+    val firstFrame: Array<FirstFrame>
+    val date: Long
+    val addingDate: Long
+    val views: Int
+    val localViews: Int
+    val comments: Int
+    val player: String
+    val canAdd: Boolean
+    val isPrivate: Boolean
+    val accessKey: String
+    val processing: Boolean
+    val isFavorite: Boolean
+    val canComment: Boolean
+    val canEdit: Boolean
+    val canLike: Boolean
+    val canRepost: Boolean
+    val canSubscribe: Boolean
+    val canAddToFaves: Boolean
+    val canAttachLink: Boolean
+    val width: Int
+    val height: Int
+    val userId: Int
+    val converting: Boolean
+    val added: Boolean
+    val isSubscribed: Boolean
+    val repeat: Boolean
+    val typeOfVideo: String
+    val balance: Int
+    val liveStatus: String
+    val live: Boolean
+    val upcoming: Boolean
+    val spectators: Int
+    val likes: LikesForVideo
+    val reposts: RepostsForVideo
+}
