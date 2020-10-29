@@ -13,32 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="попытка сделать ДЗ">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/AttachmentAudio.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/AttachmentDoc.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/AttachmentGraffiti.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/AttachmentVideo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/Audio.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/AudioMessage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/Doc.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/FirstFrame.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/Graffiti.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/GraffitiForPreview.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/Image.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/LikesForVideo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/PhotoForPreview.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/Preview.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/RepostsForVideo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/SizesForPreview.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/Video.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IdeaProjects.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="сделано ДЗ в lesson1_6 и поправил файл .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/AttachmentGraffiti.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_6/AttachmentGraffiti.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603818518070</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="сделано ДЗ в lesson1_6 и поправил файл .gitignore">
+      <created>1603907877138</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603907877139</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +369,8 @@
     <MESSAGE value="выполнены задания в lesson1_5" />
     <MESSAGE value="модернизировал TransferUpgrade.kt и покрыл все ветки автотестами" />
     <MESSAGE value="попытка сделать ДЗ" />
-    <option name="LAST_COMMIT_MESSAGE" value="попытка сделать ДЗ" />
+    <MESSAGE value="сделано ДЗ в lesson1_6 и поправил файл .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделано ДЗ в lesson1_6 и поправил файл .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Intentions" timestamp="1603805128850">
@@ -456,10 +441,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1603566291883" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603818522279">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603908058982">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603818522279" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603908058982" />
     <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1603718748383">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
