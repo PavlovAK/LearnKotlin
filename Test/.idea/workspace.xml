@@ -13,13 +13,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="попавил ДЗ в lesson1_6">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_7/Comment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_7/PostNotFoundException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_7/Thread.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lesson1_7/CreateCommentTest.kt" afterDir="false" />
+    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="выолнил задание lesson1_7">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/CommentIsNotFoundException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/CommentRemovedException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/CommentToNote.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/ListOfNotesIsEptyException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NoFindIdCommentException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NoFindIdNoteException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NotCreatedNotesException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/Note.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NoteDeletedEarlierException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NoteRemovedException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NotesService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/UnknownException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lesson1_8/NotesServiceTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/WallService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_5/WallService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +52,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -67,13 +75,14 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/kotlin" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/kotlin/lesson1_8" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson1_8" />
       <recent name="lesson1_3" />
       <recent name="lesson1_5" />
     </key>
@@ -96,13 +105,13 @@
       <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'Test.test'">
-    <configuration name="CreateCommentTest.createComment_correctPost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.NotesServiceTest">
+    <configuration name="NotesServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_7.CreateCommentTest.createComment_correctPost&quot; --stacktrace" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_8.NotesServiceTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -116,12 +125,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CreateCommentTest.createComment_exceptionPostNotFind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NotesServiceTest.getNoteById_noteNotFind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_7.CreateCommentTest.createComment_exceptionPostNotFind&quot;" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_8.NotesServiceTest.getNoteById_noteNotFind&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -135,12 +144,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'Test.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NotesServiceTest.restoreCommentToNote_EmptyListOfComment" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_8.NotesServiceTest.restoreCommentToNote_EmptyListOfComment&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -154,12 +163,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'lesson1_5'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NotesServiceTest.restoreCommentToNote_NotFindId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_5.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_8.NotesServiceTest.restoreCommentToNote_NotFindId&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -173,12 +182,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TransferKtTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NotesServiceTest.restoreCommentToNote_successRestore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TransferKtTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_8.NotesServiceTest.restoreCommentToNote_successRestore&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -194,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'Test.test'" />
-        <item itemvalue="Gradle.CreateCommentTest.createComment_exceptionPostNotFind" />
-        <item itemvalue="Gradle.CreateCommentTest.createComment_correctPost" />
-        <item itemvalue="Gradle.Tests in 'lesson1_5'" />
-        <item itemvalue="Gradle.TransferKtTest" />
+        <item itemvalue="Gradle.NotesServiceTest" />
+        <item itemvalue="Gradle.NotesServiceTest.restoreCommentToNote_NotFindId" />
+        <item itemvalue="Gradle.NotesServiceTest.restoreCommentToNote_successRestore" />
+        <item itemvalue="Gradle.NotesServiceTest.restoreCommentToNote_EmptyListOfComment" />
+        <item itemvalue="Gradle.NotesServiceTest.getNoteById_noteNotFind" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603950450852</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="выолнил задание lesson1_7">
+      <created>1603977131096</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603977131097</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,7 +398,8 @@
     <MESSAGE value="попытка сделать ДЗ" />
     <MESSAGE value="сделано ДЗ в lesson1_6 и поправил файл .gitignore" />
     <MESSAGE value="попавил ДЗ в lesson1_6" />
-    <option name="LAST_COMMIT_MESSAGE" value="попавил ДЗ в lesson1_6" />
+    <MESSAGE value="выолнил задание lesson1_7" />
+    <option name="LAST_COMMIT_MESSAGE" value="выолнил задание lesson1_7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Intentions" timestamp="1603805128850">
@@ -405,6 +422,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1603096132808" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604076619798">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1604076619798" />
     <state x="420" y="132" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1603810788045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -421,46 +442,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="424" y="39" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601922126644" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1603975931674">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1604077192493">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603975931674" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1603975931674">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604077192493" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1604077192493">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603975931674" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1603975931674">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604077192493" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1604077192490">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603975931674" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1603975931674">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604077192490" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1604077192493">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603975931674" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1603566291883">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604077192493" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1604067500448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603566291883" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1603566291882">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604067500448" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1604067500448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1603566291882" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1603566291882">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604067500448" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1604067500448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1603566291882" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1603566291883">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604067500448" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1604067500448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1603566291883" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603950456259">
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604067500448" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603977138206">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603950456259" />
-    <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1603718748383">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603977138206" />
+    <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1604065571571">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="451" y="119" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1603718748383" />
+    <state x="451" y="119" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1604065571571" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603634263795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -469,10 +490,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="209" y="52" width="863" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1603638807686" />
-    <state x="412" y="147" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1603965162634">
+    <state x="412" y="133" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1604065571613">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="412" y="147" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1603965162634" />
+    <state x="412" y="133" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1604065571613" />
     <state x="359" y="112" key="refactoring.ChangeSignatureDialog" timestamp="1603368270307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
