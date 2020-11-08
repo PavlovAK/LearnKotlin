@@ -13,21 +13,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="выолнил задание lesson1_7">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/CommentIsNotFoundException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/CommentRemovedException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/CommentToNote.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/ListOfNotesIsEptyException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NoFindIdCommentException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NoFindIdNoteException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NotCreatedNotesException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/Note.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NoteDeletedEarlierException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NoteRemovedException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/NotesService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_8/UnknownException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lesson1_8/NotesServiceTest.kt" afterDir="false" />
+    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="выолнил задание lesson1_8">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/Chat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ChatService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/Message.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/PairOfUser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/UserService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lesson1_9/ChatServiceTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lesson1_9/UserServiceTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +51,8 @@
         <option value="Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -75,13 +71,14 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/kotlin/lesson1_8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/kotlin/lesson1_9" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson1_9" />
       <recent name="lesson1_8" />
       <recent name="lesson1_3" />
       <recent name="lesson1_5" />
@@ -105,13 +102,13 @@
       <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.NotesServiceTest">
-    <configuration name="NotesServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Tests in 'Test.test'">
+    <configuration name="ChatServiceTest.getChats_exception101" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_8.NotesServiceTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_9.ChatServiceTest.getChats_exception101&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -125,12 +122,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NotesServiceTest.getNoteById_noteNotFind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ChatServiceTest.readSomeMessagesInChat_correctSize" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_8.NotesServiceTest.getNoteById_noteNotFind&quot;" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_9.ChatServiceTest.readSomeMessagesInChat_correctSize&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -144,12 +141,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NotesServiceTest.restoreCommentToNote_EmptyListOfComment" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ChatServiceTest.readSomeMessagesInChat_overSize" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_8.NotesServiceTest.restoreCommentToNote_EmptyListOfComment&quot;" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_9.ChatServiceTest.readSomeMessagesInChat_overSize&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -163,12 +160,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NotesServiceTest.restoreCommentToNote_NotFindId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'Test.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_8.NotesServiceTest.restoreCommentToNote_NotFindId&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,32 +179,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NotesServiceTest.restoreCommentToNote_successRestore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_8.NotesServiceTest.restoreCommentToNote_successRestore&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Test.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.NotesServiceTest" />
-        <item itemvalue="Gradle.NotesServiceTest.restoreCommentToNote_NotFindId" />
-        <item itemvalue="Gradle.NotesServiceTest.restoreCommentToNote_successRestore" />
-        <item itemvalue="Gradle.NotesServiceTest.restoreCommentToNote_EmptyListOfComment" />
-        <item itemvalue="Gradle.NotesServiceTest.getNoteById_noteNotFind" />
+        <item itemvalue="Gradle.Tests in 'Test.test'" />
+        <item itemvalue="Gradle.ChatServiceTest.readSomeMessagesInChat_overSize" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.ChatServiceTest.readSomeMessagesInChat_correctSize" />
+        <item itemvalue="Gradle.ChatServiceTest.getChats_exception101" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603977131097</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="выолнил задание lesson1_8">
+      <created>1604077242530</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604077242531</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -399,13 +397,18 @@
     <MESSAGE value="сделано ДЗ в lesson1_6 и поправил файл .gitignore" />
     <MESSAGE value="попавил ДЗ в lesson1_6" />
     <MESSAGE value="выолнил задание lesson1_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="выолнил задание lesson1_7" />
+    <MESSAGE value="выолнил задание lesson1_8" />
+    <option name="LAST_COMMIT_MESSAGE" value="выолнил задание lesson1_8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Intentions" timestamp="1603805128850">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Intentions/0.0.1280.680@0.0.1280.680" timestamp="1603805128850" />
+    <state x="393" y="165" key="#Notifications" timestamp="1604868053624">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="393" y="165" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1604868053624" />
     <state x="121" y="0" key="#Project_Structure" timestamp="1601922391610">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -414,10 +417,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1603722411779" />
-    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1603906817400">
+    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1604677710705">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603906817400" />
+    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1604677710705" />
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603096132808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -442,58 +445,62 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="424" y="39" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601922126644" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1604077192493">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1604872213791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604077192493" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1604077192493">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604872213791" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1604872213791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604077192493" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1604077192490">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604872213791" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1604872213790">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604077192490" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1604077192493">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604872213790" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1604872213791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604077192493" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1604067500448">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604872213791" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1604872170738">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604067500448" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1604067500448">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604872170738" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1604872170738">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604067500448" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1604067500448">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604872170738" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1604872170738">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604067500448" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1604067500448">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604872170738" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1604872170738">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604067500448" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603977138206">
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604872170738" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1604077247358">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603977138206" />
-    <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1604065571571">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604077247358" />
+    <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1604686092245">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="451" y="119" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1604065571571" />
+    <state x="451" y="119" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1604686092245" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603634263795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1603634263795" />
-    <state x="209" y="52" width="863" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603638807686">
+    <state x="209" y="52" width="863" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604866339270">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="209" y="52" width="863" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1603638807686" />
-    <state x="412" y="133" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1604065571613">
+    <state x="209" y="52" width="863" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1604866339270" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1604653523228">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="412" y="133" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1604065571613" />
+    <state width="600" height="428" key="javadoc.popup/0.0.1280.680@0.0.1280.680" timestamp="1604653523228" />
+    <state x="412" y="109" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1604686092278">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="412" y="109" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1604686092278" />
     <state x="359" y="112" key="refactoring.ChangeSignatureDialog" timestamp="1603368270307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -532,22 +539,28 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/lesson1_9/ChatServiceTest.kt</url>
+          <line>240</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>10</line>
-          <option name="timeStamp" value="11" />
+          <line>24</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="14" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="22" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="37" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JetRunConfigurationType">
-        <watch expression="((Post)secondPost).id" custom="lesson1_5.Post" />
-        <watch expression="((Post)secondPost).id" custom="lesson1_5.Post" />
-        <watch expression="((Post)secondPost).id" custom="lesson1_5.Post" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
