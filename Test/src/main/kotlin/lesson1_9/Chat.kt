@@ -8,3 +8,4 @@ data class Chat(
     var isRead: Boolean,
     var isDeleted: Boolean
 )
+
