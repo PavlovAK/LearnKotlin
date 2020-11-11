@@ -13,16 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="выолнил задание lesson1_8">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/Chat.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/ChatServiceUpgrade.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/Message.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/PairOfUser.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/Chat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/Chat.kt" afterDir="false" />
-    </list>
+    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="Вторая версия чата" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -360,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604077242531</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Вторая версия чата">
+      <created>1605124656387</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1605124656387</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,7 +395,8 @@
     <MESSAGE value="попавил ДЗ в lesson1_6" />
     <MESSAGE value="выолнил задание lesson1_7" />
     <MESSAGE value="выолнил задание lesson1_8" />
-    <option name="LAST_COMMIT_MESSAGE" value="выолнил задание lesson1_8" />
+    <MESSAGE value="Вторая версия чата" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вторая версия чата" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Intentions" timestamp="1603805128850">
@@ -480,10 +479,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="131" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604934833175" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1604077247358">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605124663278">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604077247358" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605124663278" />
     <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1604921964305">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

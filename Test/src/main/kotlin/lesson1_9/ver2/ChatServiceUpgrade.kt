@@ -134,7 +134,7 @@ class InMemoryChatServiceUpgrade() : ChatServiceUpgrade {
         return true
     }
 
-    override fun readChat(chatIdFor: Int): Boolean {
+    override fun readChat(chatId: Int): Boolean {
 
         allChats
             .first { it.id == chatId }
