@@ -28,6 +28,6 @@ fun MutableList<PairOfUsers>.addPairOfUsers(userSender: User, userRecipient: Use
     this
         .ifEmpty { return this.add(pairOfUser) }
 
-    if (this.contains(pairOfUser)) return false
+    if (this.asSequence().contains(pairOfUser)) return false
     return this.add(pairOfUser)
 }

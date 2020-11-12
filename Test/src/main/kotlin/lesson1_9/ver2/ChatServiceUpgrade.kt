@@ -44,6 +44,7 @@ class InMemoryChatServiceUpgrade() : ChatServiceUpgrade {
         messageId++
 
         return allChats
+            .asSequence()
             .first { it.pairOfUser == currentPairOfUsers }
             .messages
             .add(message)
@@ -52,14 +53,17 @@ class InMemoryChatServiceUpgrade() : ChatServiceUpgrade {
     override fun deleteMessage(chatId: Int, messageId: Int): Boolean {
 
         val currentMessages = allChats
+            .asSequence()
             .first { it.id == chatId }.messages
 
         currentMessages
+            .asSequence()
             .first { it.id == messageId }
             .apply { isDeleted = true }
 
         currentMessages
             .remove(currentMessages
+                .asSequence()
                 .first { it.id == messageId })
 
         currentMessages
@@ -87,16 +91,20 @@ class InMemoryChatServiceUpgrade() : ChatServiceUpgrade {
     override fun deleteChat(chatId: Int): Boolean {
 
         allChats
+            .asSequence()
             .first { it.id == chatId }
             .apply { isDeleted = true }
 
         pairsOfUsers
             .remove(allChats
+                .asSequence()
                 .first { it.id == chatId }
                 .pairOfUser)
 
         return allChats
-            .remove(allChats.first { it.id == chatId })
+            .remove(allChats
+                .asSequence()
+                .first { it.id == chatId })
     }
 
     override fun getChats() {
@@ -144,6 +152,7 @@ class InMemoryChatServiceUpgrade() : ChatServiceUpgrade {
     override fun readChat(chatId: Int): Boolean {
 
         allChats
+            .asSequence()
             .first { it.id == chatId }
             .apply { isRead = true }
 

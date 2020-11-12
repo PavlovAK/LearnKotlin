@@ -13,11 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="Вторая версия чата (поправил переменную)">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lesson1_9/ver2/InMemoryChatServiceUpgradeTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lesson1_9/ver2/PairOfUserKtTest.kt" afterDir="false" />
+    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="Актуальная версия чата находится в lesson1_9.ver2&#10;Автотесты в InMemoryChatServiceUpgradeTest.kt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/ChatServiceUpgrade.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/ChatServiceUpgrade.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/PairOfUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/PairOfUser.kt" afterDir="false" />
     </list>
@@ -100,7 +97,26 @@
       <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.InMemoryChatServiceUpgradeTest.readChat">
+  <component name="RunManager" selected="Gradle.InMemoryChatServiceUpgradeTest">
+    <configuration name="InMemoryChatServiceUpgradeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_9.ver2.InMemoryChatServiceUpgradeTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="InMemoryChatServiceUpgradeTest.readAllMessagesInChat" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,25 +142,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;lesson1_9.ver2.InMemoryChatServiceUpgradeTest.readChat&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readOneMessage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_9.ver2.InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readOneMessage&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -198,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InMemoryChatServiceUpgradeTest" />
         <item itemvalue="Gradle.InMemoryChatServiceUpgradeTest.readChat" />
         <item itemvalue="Gradle.InMemoryChatServiceUpgradeTest.readAllMessagesInChat" />
         <item itemvalue="Gradle.InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readThreeMessageFromTwo" />
         <item itemvalue="Gradle.InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readThreeMessageFromFour" />
-        <item itemvalue="Gradle.InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readOneMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605125414675</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Актуальная версия чата находится в lesson1_9.ver2&#10;Автотесты в InMemoryChatServiceUpgradeTest.kt">
+      <created>1605211087863</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605211087863</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,7 +422,8 @@
     <MESSAGE value="выолнил задание lesson1_8" />
     <MESSAGE value="Вторая версия чата" />
     <MESSAGE value="Вторая версия чата (поправил переменную)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вторая версия чата (поправил переменную)" />
+    <MESSAGE value="Актуальная версия чата находится в lesson1_9.ver2&#10;Автотесты в InMemoryChatServiceUpgradeTest.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Актуальная версия чата находится в lesson1_9.ver2&#10;Автотесты в InMemoryChatServiceUpgradeTest.kt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Intentions" timestamp="1603805128850">
@@ -501,10 +506,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="131" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604934833175" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605125419250">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605211092960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605125419250" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605211092960" />
     <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1605189369441">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
