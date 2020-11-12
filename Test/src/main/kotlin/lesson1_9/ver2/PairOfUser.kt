@@ -31,14 +31,3 @@ fun MutableList<PairOfUsers>.addPairOfUsers(userSender: User, userRecipient: Use
     if (this.contains(pairOfUser)) return false
     return this.add(pairOfUser)
 }
-
-fun MutableList<PairOfUsers>.removePairOfUsers(userSender: User, userRecipient: User): Boolean {
-
-    val pairOfUser = PairOfUsers(userSender, userRecipient)
-    this
-        .ifEmpty { return false }
-    this
-        .remove(pairOfUser)
-
-    return false
-}

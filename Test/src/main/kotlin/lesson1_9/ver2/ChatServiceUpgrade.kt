@@ -2,7 +2,7 @@ package lesson1_9.ver2
 
 interface ChatServiceUpgrade {
 
-    fun createMessage(userSender: User, userRecipient: User, message: Message): Boolean
+    fun createMessage(userSender: User, userRecipient: User, text: String): Boolean
     fun deleteMessage(chatId: Int, messageId: Int): Boolean
     fun createChat(userSender: User, userRecipient: User, message: Message): Boolean
     fun deleteChat(chatId: Int): Boolean
@@ -16,34 +16,37 @@ interface ChatServiceUpgrade {
 }
 
 class InMemoryChatServiceUpgrade() : ChatServiceUpgrade {
-    private var allChats = mutableListOf<Chat>()
-    private var pairsOfUsers = mutableListOf<PairOfUsers>()
-    private var chatId = 0
+    private val allChats = mutableListOf<Chat>()
+    private val pairsOfUsers = mutableListOf<PairOfUsers>()
+    private var chatId = if (allChats.size == 0) 1 else allChats.last().id + 1
     private var messageId = 0
 
 
-    override fun createMessage(userSender: User, userRecipient: User, message: Message): Boolean {
+    override fun createMessage(userSender: User, userRecipient: User, text: String): Boolean {
 
+        val message = Message(
+            chatId = chatId,
+            id = messageId,
+            date = 0,
+            text = text,
+            isRead = false,
+            isDeleted = false
+        )
         val resultOfAddingPairOfUser = pairsOfUsers.addPairOfUsers(userSender, userRecipient)
         if (resultOfAddingPairOfUser) {
-            val message = Message(
-                chatId = chatId,
-                id = messageId,
-                date = 0,
-                text = "Hello",
-                isRead = false,
-                isDeleted = false
-            )
             chatId++
             messageId++
             createChat(userSender, userRecipient, message)
             return true
         }
-        allChats
-            .first { it.id == message.chatId }
-            .apply { this.messages.add(message) }
-            .let { messageId++ }
-            .also { return true }
+
+        val currentPairOfUsers = PairOfUsers(userSender, userRecipient)
+        messageId++
+
+        return allChats
+            .first { it.pairOfUser == currentPairOfUsers }
+            .messages
+            .add(message)
     }
 
     override fun deleteMessage(chatId: Int, messageId: Int): Boolean {
@@ -66,18 +69,19 @@ class InMemoryChatServiceUpgrade() : ChatServiceUpgrade {
     }
 
     override fun createChat(userSender: User, userRecipient: User, message: Message): Boolean {
-        val messagesForChat = mutableListOf<Message>()
-        messagesForChat.add(message)
-        val pairOfUsers = pairsOfUsers.last()
-        val chat = Chat(
-            id = message.chatId,
-            date = 0,
-            messages = messagesForChat,
-            pairOfUser = pairOfUsers,
-            isRead = false,
-            isDeleted = false
-        )
-        return allChats.add(chat)
+
+            val pairOfUsers = pairsOfUsers.last()
+            val messages = mutableListOf<Message>()
+            messages.add(message)
+            val chat = Chat(
+                id = message.chatId,
+                date = 0,
+                messages = messages,
+                pairOfUser = pairOfUsers,
+                isRead = false,
+                isDeleted = false
+            )
+            return allChats.add(chat)
     }
 
     override fun deleteChat(chatId: Int): Boolean {
@@ -86,18 +90,21 @@ class InMemoryChatServiceUpgrade() : ChatServiceUpgrade {
             .first { it.id == chatId }
             .apply { isDeleted = true }
 
+        pairsOfUsers
+            .remove(allChats
+                .first { it.id == chatId }
+                .pairOfUser)
+
         return allChats
             .remove(allChats.first { it.id == chatId })
     }
 
     override fun getChats() {
 
-        try {
-            allChats
-                .forEach { println(it.messages.last()) }
-        } catch (e: Exception) {
-            println("Нет сообщений")
-        }
+        allChats
+            .forEach {
+                it.messages.ifEmpty { println("Нет сообщений") }
+                println(it.messages.last()) }
     }
 
     override fun getUnreadChats(): Int {
@@ -108,18 +115,18 @@ class InMemoryChatServiceUpgrade() : ChatServiceUpgrade {
 
     override fun readSomeMessagesInChat(chatId: Int, messageId: Int, countOfMessage: Int): Boolean {
         val messages = allChats.first { it.id == chatId }.messages
-        val lastIndex = messages.lastIndex
+        val lastIndex = messages.lastIndex + 1
         val indexFromRead = messages.indexOfFirst { it.id == messageId }
-        val indexToRead = (indexFromRead + countOfMessage) + 1
+        val indexToRead = indexFromRead + countOfMessage
         if (lastIndex <= indexToRead) {
             val messagesToRead = messages.subList(indexFromRead, lastIndex)
-            readAllMessagesInChat(chatId)
+            messagesToRead.forEach {
+                it.isRead = true }
             return messagesToRead.last().isRead
         }
         val messagesToRead = messages.subList(indexFromRead, indexToRead)
-        for (message in messagesToRead) {
-            message.apply { isRead = true }
-        }
+        messagesToRead.forEach {
+            it.isRead = true }
         return messagesToRead.last().isRead
     }
 
@@ -141,5 +148,13 @@ class InMemoryChatServiceUpgrade() : ChatServiceUpgrade {
             .apply { isRead = true }
 
         return true
+    }
+
+    fun getPairsOfUsers(): MutableList<PairOfUsers> {
+        return pairsOfUsers
+    }
+
+    fun getAllChats(): MutableList<Chat> {
+        return allChats
     }
 }

@@ -13,7 +13,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="Вторая версия чата" />
+    <list default="true" id="2d058ca3-7090-484d-9d79-7094ddd68fa7" name="Default Changelist" comment="Вторая версия чата (поправил переменную)">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lesson1_9/ver2/InMemoryChatServiceUpgradeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lesson1_9/ver2/PairOfUserKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/ChatServiceUpgrade.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/ChatServiceUpgrade.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/PairOfUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson1_9/ver2/PairOfUser.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,9 +46,9 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -60,7 +67,7 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/kotlin/lesson1_9" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/kotlin/lesson1_9/ver2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -68,13 +75,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson1_9.ver2" />
       <recent name="lesson1_9" />
       <recent name="lesson1_8" />
       <recent name="lesson1_3" />
       <recent name="lesson1_5" />
     </key>
-    <key name="CreateKotlinClassDialog.RecentsKey">
-      <recent name="lesson1_6" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\Test" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="lesson1_6.Abstract" />
@@ -83,8 +91,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\IdeaProjects\Test" />
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="lesson1_6" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -92,13 +100,13 @@
       <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="ChatServiceTest.deleteMessage_notLastMessageInChat" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.InMemoryChatServiceUpgradeTest.readChat">
+    <configuration name="InMemoryChatServiceUpgradeTest.readAllMessagesInChat" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_9.ChatServiceTest.deleteMessage_notLastMessageInChat&quot;" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_9.ver2.InMemoryChatServiceUpgradeTest.readAllMessagesInChat&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -112,12 +120,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ChatServiceWithExtensionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InMemoryChatServiceUpgradeTest.readChat" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_9.ChatServiceWithExtensionTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_9.ver2.InMemoryChatServiceUpgradeTest.readChat&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -131,12 +139,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ChatServiceWithExtensionTest.deleteMessage_notLastMessageInChat" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readOneMessage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;lesson1_9.ChatServiceWithExtensionTest.deleteMessage_notLastMessageInChat&quot;" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_9.ver2.InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readOneMessage&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -150,12 +158,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'Test.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readThreeMessageFromFour" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_9.ver2.InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readThreeMessageFromFour&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -169,26 +177,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Test.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readThreeMessageFromTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;lesson1_9.ver2.InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readThreeMessageFromTwo&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Gradle.ChatServiceWithExtensionTest.deleteMessage_notLastMessageInChat" />
-        <item itemvalue="Gradle.ChatServiceWithExtensionTest" />
-        <item itemvalue="Gradle.ChatServiceTest.deleteMessage_notLastMessageInChat" />
-        <item itemvalue="Gradle.Tests in 'Test.test'" />
+        <item itemvalue="Gradle.InMemoryChatServiceUpgradeTest.readChat" />
+        <item itemvalue="Gradle.InMemoryChatServiceUpgradeTest.readAllMessagesInChat" />
+        <item itemvalue="Gradle.InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readThreeMessageFromTwo" />
+        <item itemvalue="Gradle.InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readThreeMessageFromFour" />
+        <item itemvalue="Gradle.InMemoryChatServiceUpgradeTest.readSomeMessagesInChat_readOneMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605124656387</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Вторая версия чата (поправил переменную)">
+      <created>1605125414675</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605125414675</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -396,7 +417,8 @@
     <MESSAGE value="выолнил задание lesson1_7" />
     <MESSAGE value="выолнил задание lesson1_8" />
     <MESSAGE value="Вторая версия чата" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вторая версия чата" />
+    <MESSAGE value="Вторая версия чата (поправил переменную)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вторая версия чата (поправил переменную)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Intentions" timestamp="1603805128850">
@@ -415,10 +437,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1603722411779" />
-    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1605110951952">
+    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1605198367701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605110951952" />
+    <state x="432" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605198367701" />
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603096132808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -443,66 +465,66 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="424" y="39" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601922126644" />
-    <state width="1237" height="161" key="GridCell.Tab.0.bottom" timestamp="1604940179613">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1605210952651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604940179613" />
-    <state width="1237" height="161" key="GridCell.Tab.0.center" timestamp="1604940179611">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605210952651" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1605210952651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604940179611" />
-    <state width="1237" height="161" key="GridCell.Tab.0.left" timestamp="1604940179611">
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605210952651" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1605210952651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604940179611" />
-    <state width="1237" height="161" key="GridCell.Tab.0.right" timestamp="1604940179612">
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605210952651" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1605210952651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604940179612" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1604937240222">
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605210952651" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1605210952651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604937240222" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1604937240222">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605210952651" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1605210952651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604937240222" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1604937240221">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605210952651" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1605210952651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604937240221" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1604937240222">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605210952651" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1605210952651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604937240222" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605210952651" />
     <state x="131" y="0" key="SettingsEditor" timestamp="1604934833175">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="131" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604934833175" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605124663278">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605125419250">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605124663278" />
-    <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1604921964305">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605125419250" />
+    <state x="451" y="119" key="chooseDestDirectoryDialog" timestamp="1605189369441">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="451" y="119" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1604921964305" />
+    <state x="451" y="119" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1605189369441" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603634263795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1603634263795" />
-    <state x="209" y="52" width="863" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604866339270">
+    <state x="209" y="52" width="863" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605198538594">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="209" y="52" width="863" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1604866339270" />
+    <state x="209" y="52" width="863" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1605198538594" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1604653523228">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1280.680@0.0.1280.680" timestamp="1604653523228" />
-    <state x="412" y="49" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1604921964405">
+    <state x="412" y="49" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1605189369508">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="412" y="49" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1604921964405" />
+    <state x="412" y="49" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1605189369508" />
     <state x="359" y="112" key="refactoring.ChangeSignatureDialog" timestamp="1603368270307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -545,11 +567,30 @@
           <line>240</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/lesson1_9/ver2/InMemoryChatServiceUpgradeTest.kt</url>
+          <line>152</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/lesson1_9/ver2/InMemoryChatServiceUpgradeTest.kt</url>
+          <line>172</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/lesson1_9/ver2/InMemoryChatServiceUpgradeTest.kt</url>
+          <line>213</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <breakpoint type="java-exception">
           <properties class="java.util.NoSuchElementException" package="java.util" />
           <option name="timeStamp" value="22" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Test$Tests_in__Test_test_.ic" NAME="Tests in 'Test.test' Coverage Results" MODIFIED="1605188652630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Test$InMemoryChatServiceUpgradeTest_createMessage_successCreate.ic" NAME="InMemoryChatServiceUpgradeTest.createMessage_successCreate Coverage Results" MODIFIED="1605197688659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
